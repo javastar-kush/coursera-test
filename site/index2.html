@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <style>
+        *{
+            margin-bottom: 15px;
+        }
+        #div1{
+            /* position: absolute; */
+            width: 200px;
+            height: 200px;
+            background: rgb(194, 17, 17);
+            /* border: rgb(108, 178, 243) 9px solid;  */
+        }
+        /* #div1:hover{
+            background: rgb(153, 28, 211);
+            cursor: pointer;
+            border: rgb(212, 107, 204) 9px solid;
+        }
+        #div1:active{
+            background: rgb(182, 184, 59);
+            border: green 9px solid; */
+        
+        #div2{
+            /* position: absolute; */
+            background: rgb(13, 223, 135);
+            /* color: #166; */
+            width: 50px;
+            height: 50px;
+            /* bottom: 10px; */
+            /* left:20em; */
+            /* right:20px; */
+            /* border: black 6px solid; */
+        }
+        @media (min-width:1024px){
+            #div1{
+                width: 200px;
+                height: 200px;
+            }
+            #div2{
+                width: 50px;
+                height: 50px;
+            }
+        }
+        @media (min-width: 700px) and (max-width: 1023px){
+            #div1{
+                width: 100px;
+                height: 100px;
+                /* background: rgb(175, 228, 96); */
+            }
+            #div2{
+                width: 25px;
+                height: 25px;
+            }
+        }
+        @media (min-width: 1px) and (max-width: 699px){
+            #div1{
+                width: 50px;
+                height: 50px;
+            }
+            #div2{
+                width: 10px;
+                height: 10px;
+            }
+        }
+    </style>
+</body>
+</html>
